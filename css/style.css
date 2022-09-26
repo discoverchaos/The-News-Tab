@@ -65,13 +65,16 @@
 
 .news {
     display: flex;
-    overflow-x: scroll;
-
 }
 
 .news-block {
     display: flex;
     flex-direction: column;
+    width: 25%;
+}
+
+.news-block__img {
+    width: 100%;
 }
 
 .news-block__text1 {
